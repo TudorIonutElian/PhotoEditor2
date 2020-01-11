@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html>
+
+	<head>
+		<title>Drawing Application</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./1_1150_TUDOR_IonutElian.css" />
+	</head>	
+	
+	<body>
+		<div id="toolbar">
+			<div id="culori">Selecteaza culoarea: <input type="color" value="#ffff00" name="myColor" id="selectedColor"></div>
+			<div id="range">Dimensiune: <span id="range-value-setata"></span><input type="range" id="valoareButon" value="5" min="1" max="100"></div>
+			<button id="pensula"><img src="media/pensula.png"></button>
+			<button id="radiera"><img src="media/radiera.png"></button>
+			<button id="linie"><img src="media/linie.png"></button>
+			<div id="cropImage">
+				<input id="valoareButonCropLeft" value="0" type="text">
+				<input id="valoareButonCropRight" value="0" type="text">
+				<button id="creeazaTriunghi">Creeaza triunghi (in progress)</button>
+			</div>
+			<button id="reseteaza">Reset</button>
+			<a href="" id="saveLink"><button id="save">Save</button></a>
+			<br>
+		</div>
+		<canvas id="canvas">Nu mai folosi Internet Explorer, este Expirat!</canvas>
+		<script src="./1_1150_TUDOR_IonutElian.js"></script>
+	</body>
+	
+</html>
